@@ -82,6 +82,7 @@ body {
   letter-spacing: 0.04em;
   color: #ffffff;
   background: #4d5ae5;
+  cursor: pointer;
 }
 
 .order-service-btn:hover,
@@ -111,7 +112,7 @@ body {
   background: #f4f4fd;
 }
 
-.team-list {
+.team-item {
   background: #ffffff;
 }
 
