@@ -1,6 +1,14 @@
 /* =========== Common styles =========== */
+h1,h2,h3,h4,h5,h6,p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 ul,
 ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
   list-style-type: none;
 }
 
@@ -14,9 +22,44 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
+
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 /* =========== /Common styles =========== */
 
 /* =========== Page header styles =========== */
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.page-nav {
+  display: flex;
+  align-items: center;
+}
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -25,10 +68,16 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .logo-part {
   color: #2e2f42;
+}
+
+.menu {
+  display: flex;
+  gap: 40px;
 }
 
 .menu-link {
@@ -37,6 +86,8 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
+  display: block;
 }
 .menu-link.active {
   color: #404bbf;
@@ -48,6 +99,12 @@ body {
 
 .address {
   font-style: normal;
+  margin-left: auto;
+}
+
+.address-list {
+  display: flex;
+  gap: 40px;
 }
 
 .address-link {
@@ -63,19 +120,28 @@ body {
 /* =========== /Page header styles =========== */
 
 /* =========== Hero Section styles =========== */
+
 .hero {
   background: #2e2f42;
+  padding: 188px 0;
 }
+
 .main-title {
+  max-width: 496px;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
 }
 
 .order-service-btn {
+  min-width: 169px;
+  height: 56px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -83,6 +149,10 @@ body {
   color: #ffffff;
   background: #4d5ae5;
   cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  display: block;
+  margin: 0 auto;
 }
 
 .order-service-btn:hover,
@@ -92,6 +162,21 @@ body {
 /* =========== /Hero Section styles =========== */
 
 /* =========== Benefits Section styles =========== */
+.benefits {
+  padding-top: 120px;
+  padding-bottom: 60px;
+}
+
+.benefits-list {
+display: flex;
+flex-wrap: wrap;
+gap: 24px;
+}
+
+.benefits-list-item {
+  width: calc((100% - 72px) /4);
+}
+
 .benefits-list-title {
   font-weight: 500;
   font-size: 20px;
@@ -110,10 +195,13 @@ body {
 /* =========== Team Section styles =========== */
 .team {
   background: #f4f4fd;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .team-item {
   background: #ffffff;
+  width: calc((100% - 72px) /4);
 }
 
 .section-title {
@@ -124,6 +212,18 @@ body {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 72px;
+}
+
+.team-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.team-item-name {
+  padding: 32px 0;
+  text-align: center;
 }
 
 .team-title {
@@ -144,6 +244,11 @@ body {
 /* =========== /Team Section styles =========== */
 
 /* =========== Portfolio Section styles =========== */
+.portfolio {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
@@ -152,8 +257,21 @@ body {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 72px;
+}
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
 }
 
+.portfolio-item {
+  width: calc((100% - 72px) /3);
+}
+
+.portfolio-item-name {
+  padding: 32px;
+}
 .portfolio-app {
   font-weight: 500;
   font-size: 20px;
@@ -172,6 +290,7 @@ body {
 /* =========== Footer styles =========== */
 .page-footer {
   background: #2e2f42;
+  padding: 100px 0;
 }
 
 .logo-footer {
@@ -182,6 +301,8 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .logo-footer-part {
@@ -189,6 +310,7 @@ body {
 }
 
 .page-footer-text {
+  max-width: 264px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
