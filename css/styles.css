@@ -46,7 +46,6 @@ body {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-  margin-bottom: 8px;
 }
 /* =========== /Common styles =========== */
 
@@ -187,6 +186,7 @@ gap: 24px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .benefits-list-text {
@@ -216,7 +216,7 @@ gap: 24px;
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
-  margin-bottom: 8px;
+  margin-bottom: 72px;
 }
 
 .team-list {
@@ -237,6 +237,7 @@ gap: 24px;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .team-position {
@@ -248,11 +249,6 @@ gap: 24px;
 /* =========== /Team Section styles =========== */
 
 /* =========== Portfolio Section styles =========== */
-.portfolio-container {
-  padding: 32px 16px;
-  border: 1px solid #e7e9fc;
-}
-
 .portfolio {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -266,7 +262,7 @@ gap: 24px;
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
-  margin-bottom: 8px;
+  margin-bottom: 72px;
 }
 .portfolio-list {
   display: flex;
@@ -281,6 +277,7 @@ gap: 24px;
 
 .portfolio-item-name {
   padding: 32px;
+  margin-bottom: 8px;
 }
 .portfolio-app {
   font-weight: 500;
