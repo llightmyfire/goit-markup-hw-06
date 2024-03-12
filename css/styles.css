@@ -573,6 +573,7 @@ body {
   justify-content: center;
   align-items: center;
   border: none;
+  cursor: pointer;
 }
 
 .footer-sbscr-icon {
