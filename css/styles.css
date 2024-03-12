@@ -656,6 +656,7 @@ body {
   color: rgba(46, 47, 66, 0.4);
   background-color: transparent;
   outline: transparent;
+  margin-bottom: 8px;
 }
 
 .call-back-comment::placeholder {
