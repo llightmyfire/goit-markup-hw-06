@@ -543,7 +543,9 @@ body {
   background-color: #fcfcfc;
   border-radius: 4px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  padding: 24px;
+  padding: 72px 24px 24px 24px;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .modal-close-btn {
@@ -591,11 +593,11 @@ body {
   text-align: center;
   color: #2e2f42;
   margin-top: 24px;
-  margin-bottom: 11px;
+  margin-bottom: 16px;
 }
 
 .call-back-form-field-wrapper {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 
 .call-back-form-field-label {
@@ -614,6 +616,8 @@ body {
   border-radius: 4px;
   padding-left: 38px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: transparent;
+  outline: transparent;
 }
 
 .call-back-form-input:focus {
@@ -649,6 +653,9 @@ body {
   resize: none;
   padding: 8px 16px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: rgba(46, 47, 66, 0.4);
+  background-color: transparent;
+  outline: transparent;
 }
 
 .call-back-comment::placeholder {
@@ -662,7 +669,7 @@ body {
 
 .call-back-checkbox-label {
   font-size: 12px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
 }
@@ -682,14 +689,18 @@ body {
   cursor: pointer;
   fill: transparent;
   margin-right: 8px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .call-back-checkbox-privacy:checked
   + .call-back-checkbox-label
   .call-back-own-checkbox {
-  background-color: #4d5ae5;
   fill: #f4f4fd;
   border-color: #4d5ae5;
+  background-color: #404bbf;
+  border: none;
 }
 
 .call-back-checkbox-privacy:focus
@@ -722,6 +733,8 @@ body {
   margin-right: auto;
   margin-top: 24px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .call-back-form-submit-btn:hover,
