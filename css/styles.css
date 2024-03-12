@@ -510,6 +510,75 @@ body {
 .footer-two-link:focus {
   background-color: #31d0aa;
 }
+
+.footer-subscribe {
+  display: flex;
+  margin-left: 80px;
+  flex-direction: column;
+}
+
+.footer-subscribe-dscr {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.footer-form {
+  display: flex;
+  gap: 24px;
+}
+
+.footer-form-input {
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  width: 264px;
+  height: 40px;
+  padding-left: 16px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background-color: transparent;
+}
+
+.footer-form-input::placeholder {
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+
+.footer-form-input:focus {
+  outline: transparent;
+}
+
+.footer-subscribe-btn {
+  display: flex;
+  border-radius: 4px;
+  padding: 8px 24px;
+  min-width: 165px;
+  height: 40px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #ffffff;
+  background-color: #4d5ae5;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+
+.footer-sbscr-icon {
+  fill: #ffffff;
+  margin-left: 16px;
+}
 /* =========== /Footer styles =========== */
 
 /* =========== Backdrop styles =========== */
