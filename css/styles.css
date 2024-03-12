@@ -597,7 +597,7 @@ body {
 }
 
 .call-back-form-field-wrapper {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .call-back-form-field-label {
@@ -656,7 +656,6 @@ body {
   color: rgba(46, 47, 66, 0.4);
   background-color: transparent;
   outline: transparent;
-  margin-bottom: 8px;
 }
 
 .call-back-comment::placeholder {
