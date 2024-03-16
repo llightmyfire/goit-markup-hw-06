@@ -132,6 +132,7 @@ img {
     gap: 40px;
   }
   .menu-link {
+    display: block;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -751,11 +752,6 @@ img {
   color: #434455;
 }
 
-.section-title {
-  visibility: hidden;
-  margin-bottom: 0;
-}
-
 .benefits-list {
   display: flex;
   flex-wrap: wrap;
@@ -831,6 +827,17 @@ img {
 .team {
   background-color: #f4f4fd;
   padding: 96px 12px;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  color: #2e2f42;
+  margin-bottom: 72px;
 }
 
 .team-item {
@@ -943,12 +950,14 @@ img {
 }
 
 .portfolio-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
   color: #2e2f42;
-  background: #ffffff;
+  margin-bottom: 72px;
 }
 
 .portfolio-text {
